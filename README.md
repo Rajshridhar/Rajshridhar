@@ -18,7 +18,7 @@
 
 I'm **Shridhar Kumar**, a **Software Engineer focused on AI/ML**, with a strong interest in building practical systems that connect **machine learning, LLMs, backend engineering, and data**.
 
-I graduated from **IIT BHU, Varanasi** with a **B.Tech** and a CGPA of **7.60/10.0**. My work has evolved from classical machine learning and data pipelines into **GenAI, Retrieval-Augmented Generation (RAG), Agentic AI, NLP, and production-oriented backend systems**.
+I graduated from **IIT BHU, Varanasi** with a **B.Tech** in Civil Engineering and a CGPA of **7.60/10.0**. My work has evolved from classical machine learning and data pipelines into **GenAI, Retrieval-Augmented Generation (RAG), Agentic AI, NLP, and production-oriented backend systems**.
 
 Today, I enjoy solving problems where the challenge is not simply training a model, but engineering the **complete system around the model** — data ingestion, retrieval, reasoning, APIs, reliability, evaluation, security, and measurable business or operational impact.
 
