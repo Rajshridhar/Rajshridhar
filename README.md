@@ -18,7 +18,7 @@
 
 I'm **Shridhar Kumar**, a **Software Engineer focused on AI/ML**, with a strong interest in building practical systems that connect **machine learning, LLMs, backend engineering, and data**.
 
-I graduated from **IIT BHU, Varanasi** with a **B.Tech in Civil Engineering** and a CGPA of **7.60/10.0**. My work has evolved from classical machine learning and data pipelines into **GenAI, Retrieval-Augmented Generation (RAG), Agentic AI, NLP, and production-oriented backend systems**.
+I graduated from **IIT BHU, Varanasi** with a **B.Tech** and a CGPA of **7.60/10.0**. My work has evolved from classical machine learning and data pipelines into **GenAI, Retrieval-Augmented Generation (RAG), Agentic AI, NLP, and production-oriented backend systems**.
 
 Today, I enjoy solving problems where the challenge is not simply training a model, but engineering the **complete system around the model** — data ingestion, retrieval, reasoning, APIs, reliability, evaluation, security, and measurable business or operational impact.
 
@@ -92,6 +92,51 @@ My goal is to make AI systems **useful, explainable, reliable, and production-or
 
 ---
 
+## 🏢 Current Focus — IndiaAI / PMG
+
+My current work combines **AI/ML engineering with production data systems** for large-scale government program monitoring.
+
+### 🔬 Core Areas
+
+`Similar Project Intelligence` · `Project Timeline Prediction` · `Audit Data Engineering` · `NLP` · `LLMs/RAG` · `SQL/MySQL` · `Dashboards`
+
+### 🧠 End-to-End Problem Solving
+
+```text
+Raw PMG Data
+     ↓
+API / S3 Ingestion
+     ↓
+SQL Preprocessing & Data Quality
+     ↓
+Feature Engineering
+     ↓
+Similarity / Prediction Models
+     ↓
+Post-Processing & Validation
+     ↓
+MySQL / Analytics Layer
+     ↓
+Dashboards & Decision Support
+```
+
+### 📌 Recent Delivery Timeline
+
+| Deliverable | Status / Date |
+|---|---|
+| Similar Projects Code Refactor | ✅ Done |
+| Project Tags | ✅ Done |
+| Location-Based Similar Projects | ✅ Done |
+| Description-Based Similar Projects | ✅ Completed / feature not required for PMG |
+| Issue-Based Similar Projects | ✅ Done — **18 May 2026** |
+| Project Timeline Prediction | ✅ Done — **18 June 2026** |
+| 504 Timeout Fix for Large Attachments | ✅ Done — **05 July 2026** |
+| Data Ingestion & Data Storage Pipeline | ✅ Done — **13–16 July 2026** |
+| PMG AuditData Fetcher Pipeline | ✅ Done — **20 August 2026** |
+| Cabinet Secretary Dashboard | ✅ Done — **20 August 2026** |
+
+---
+
 ## 🚀 Selected Work
 
 ### 1. ⚡ AI-Powered Regulatory Assistant — Ministry of Power
@@ -153,13 +198,59 @@ Built a production-style **SQL + BigQuery analytics pipeline** for dark-store in
 
 ## 💼 Professional Experience
 
-| Period | Role / Organization | Selected Contributions |
-|---|---|---|
-| **Dec 2025 – Present** | **DA & AI Curation Unit — IndiaAI, MeitY** | AI regulatory assistant for Ministry of Power; agentic grievance-response workflow; NLP clustering of 9,000+ grievance records |
-| **Jul 2025 – Nov 2025** | **Software Engineer (AI/ML) — Catalogus.ai** | GraphQL Admin API pipelines; rate-limit & pagination handling; Shopify OAuth 2.0 app; production-grade multi-store session management |
-| **May 2023 – Jul 2023** | **Data Science Intern — Global Techify Pvt. Ltd.** | Recommendation modeling on 100K+ user-item records; hyperparameter tuning; end-to-end ML pipelines; AWS Lambda deployment |
+### 🇮🇳 DA & AI Curation Unit — IndiaAI, MeitY
+**Software Engineer (AI/ML) · Dec 2025 – Present**
 
-### 📈 Impact Snapshot
+Working on AI/ML systems and data products for government workflows, with a focus on **LLMs, RAG, NLP, similarity systems, predictive analytics, data pipelines, and dashboards**.
+
+#### 🤖 AI & NLP Systems
+- **AI-Powered Regulatory Assistant — Ministry of Power:** Architected a LLaMA 3.2 + RAG system for context-aware regulatory insights grounded in ministry documents.
+- **Agentic Grievance Response:** Developed an agentic LLM workflow for automated grievance responses, reducing average response time by **85%** and officer workload by **70%** across the Ministry of MSME.
+- **Grievance Clustering:** Applied NLP-based unsupervised clustering to **9,000+ unstructured grievance records** to transform complaints into actionable categories.
+
+#### 🔎 PMG Similar Project Intelligence
+- Refactored the **similar-project determination pipeline** to improve readability, correct geography-score calculation and district extraction, fix similarity reasoning, and ensure projects with zero issues are handled correctly.
+- Added project tags based on **completion percentage** and **near-completion (6-month)** signals.
+- Built and integrated **location-based similar-project determination** into the production pipeline.
+- Implemented **issue-matching based similar-project discovery**, including business rules to exclude projects with more than **25 issues** and projects with **zero issues** where appropriate.
+- Investigated and tuned similarity weighting, including geography and stage contributions, to reduce redundant similarity signals.
+
+#### ⏱️ Project Timeline Prediction
+- Built and integrated a **project completion timeline prediction system** using LightGBM quantile regression with **P50, P80, and P90** estimates.
+- Incorporated project/issue-level features, stage-aware logic, critical-path estimates, and uncertainty bounds for production inference.
+- The associated pipeline includes time-based evaluation, as-of-date feature engineering, quantile models, and comprehensive per-sector/per-stage evaluation.
+
+#### 🗄️ Data Engineering & Production Pipelines
+- Built the **PMG AuditData Fetcher pipeline** to fetch project and issue audit records from the PMG production API and ingest raw data into MySQL.
+- Implemented **incremental, manual, and full sync modes**, watermark-based tracking, gap-aware failure recovery, retries, date-chunked API fetching, and duplicate-safe ingestion.
+- Built the associated **SQL preprocessing flow** for transforming raw audit data into processed datasets used by downstream analytics and AI workflows.
+- Started and completed the **data ingestion and data storage pipeline** from **13 Jul 2026 to 16 Jul 2026**.
+- Fixed **504 timeout issues** for audit records containing larger attachments (**05 Jul 2026**).
+- Completed the **AuditData Fetcher pipeline** for projects and issue audit data on **20 Aug 2026**.
+
+#### 📊 Government Analytics & Dashboards
+- Built and deployed the **Cabinet Secretary (CabSec) Dashboard**, completed **20 Aug 2026**, for operational monitoring and analytical visibility.
+
+> **IndiaAI work in one line:** `LLMs + RAG + NLP + Similarity Search + Predictive ML + Data Engineering + SQL + Production Pipelines + Dashboards`
+
+---
+
+### 💻 Software Engineer (AI/ML) — Catalogus.ai
+**Jul 2025 – Nov 2025**
+
+- Built high-reliability GraphQL Admin API pipelines with rate-limit control and pagination handling, achieving **100% data consistency** across stores.
+- Optimized backend integration workflows with cross-functional teams, accelerating AI-driven catalog feature delivery by **25%**.
+- Engineered a custom Shopify app with **OAuth 2.0**, secure token storage, and scalable multi-store session management.
+
+### 📈 Data Science Intern — Global Techify Pvt. Ltd.
+**May 2023 – Jul 2023**
+
+- Processed **100K+ user-item records** for recommendation modeling using Python, Pandas, and scikit-learn.
+- Improved recommendation accuracy by **10%** through hyperparameter tuning of collaborative filtering models.
+- Built end-to-end ML pipelines covering EDA, preprocessing, feature engineering, training, and evaluation, reducing experimentation time by **20%**.
+- Deployed REST APIs on **AWS Lambda**, enabling **<200 ms** real-time inference.
+
+### 📊 Experience Impact Snapshot
 
 | Metric | Result |
 |---|---:|
@@ -178,19 +269,15 @@ Built a production-style **SQL + BigQuery analytics pipeline** for dark-store in
 ## 🎓 Education
 
 **Indian Institute of Technology (IIT) BHU, Varanasi**  
-**Bachelor of Technology — Civil Engineering**  
+**Bachelor of Technology**  
 **Sept 2021 – May 2025 · CGPA: 7.60 / 10.0**
-
-My engineering background in Civil Engineering shaped a systems-oriented approach to problem solving; software and AI became the direction in which I applied that analytical foundation.
 
 ---
 
 ## 🧩 Problem-Solving Journey
 
 ```text
-Civil Engineering
-      ↓
-Data Analysis & Programming
+Programming & Data Analysis
       ↓
 Classical Machine Learning
       ↓
@@ -305,4 +392,3 @@ Optional next upgrades:
 - Add a "Now Building" section with current work
 - Add a GitHub Actions workflow for dynamic metrics
 -->
-
