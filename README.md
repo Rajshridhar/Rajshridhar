@@ -118,24 +118,7 @@ Post-Processing & Validation
 MySQL / Analytics Layer
      ↓
 Dashboards & Decision Support
-```
 
-### 📌 Recent Delivery Timeline
-
-| Deliverable | Status / Date |
-|---|---|
-| Similar Projects Code Refactor | ✅ Done |
-| Project Tags | ✅ Done |
-| Location-Based Similar Projects | ✅ Done |
-| Description-Based Similar Projects | ✅ Completed / feature not required for PMG |
-| Issue-Based Similar Projects | ✅ Done — **18 May 2026** |
-| Project Timeline Prediction | ✅ Done — **18 June 2026** |
-| 504 Timeout Fix for Large Attachments | ✅ Done — **05 July 2026** |
-| Data Ingestion & Data Storage Pipeline | ✅ Done — **13–16 July 2026** |
-| PMG AuditData Fetcher Pipeline | ✅ Done — **20 August 2026** |
-| Cabinet Secretary Dashboard | ✅ Done — **20 August 2026** |
-
----
 
 ## 🚀 Selected Work
 
